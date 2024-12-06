@@ -1,0 +1,129 @@
+/* 
+Color de los botones
+
+#636AE8
+*/
+
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+
+    background: #636AE8;
+    color: white;
+    margin: 4px;
+    border: 1px solid transparent;
+    height: 40px;
+    border-radius: 6px;
+    width: 230px;
+
+}
+
+.main{
+
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.main h2{
+
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.div-imagen{
+
+    text-align: center;
+}
+
+.div_botones{
+    margin: 0 auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.div_botones button{
+
+    background: #636AE8;
+    color: white;
+    margin: 4px;
+    border: 1px solid transparent;
+    height: 40px;
+    border-radius: 6px;
+    width: 230px;
+
+}
+
+.div_botones img{
+    margin-right: 3px;
+}
+
+.div_botones button:hover{
+
+    cursor: pointer;
+}
+
+.div-arrow-back{
+
+    text-align: left;
+    margin: 20px 30px;
+}
+
+.div-vehicle-form{
+
+    text-align: center;
+}
+
+.fields{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields input{
+    width: 170px;
+    border-radius: 5px;
+    margin: 8px 0;
+    height: 25px;
+}
+
+.vehicle_table{
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle_table table{
+    border: 1px solid grey;
+
+}
+
+.vehicle_table th{
+
+    background: #FAFAFB;
+    padding: 16px 0px;
+    color: #565E6C;
+    font-size: 12px;
+    border: 1px solid grey;
+    width: 90px;
+}
+
+.vehicle_table td{
+    font-size: 11px;
+    border: 1px solid grey;
+    padding: 10px 0;
+}

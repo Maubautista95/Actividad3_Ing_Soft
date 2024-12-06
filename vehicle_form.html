@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index parqueadero</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <h2>Gestión de parqueaderos - Registrar Vehículos</h2>
+
+        <div class="div-arrow-back">
+            <a href="/index.html">
+                <img src="/img/flecha_atras.png" alt="flecha atrás" width="40px">
+            </a>                        
+        </div>
+
+        <div class="div-vehicle-form">
+            <form id="vehicleForm">
+                <div class="fields">
+                    <input type="text" id="customerName" placeholder="Nombre del cliente">
+                    <input type="text" id="customerPhone" placeholder="Celular del cliente">
+                    <input type="text" id="vehiclePlate" placeholder="Ingresar placa del vehículo">
+                    <input type="text" id="vehicleModel" placeholder="Modelo de vehículo">
+                </div>
+                <button type="button" onclick="saveFormData()">Registrar Vehículo</button>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="/App.js"></script> 
+</html>
